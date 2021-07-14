@@ -1,0 +1,68 @@
+body{
+    background-color:black;
+    border: 100px solid green;
+    border-radius:200px;
+    border: 50px solid rgb(105, 245, 66);
+}
+#quote{
+    color:darkgoldenrod;
+}
+#heading{
+    color:orange;
+}
+#form{
+    color:hotpink;
+    border-radius:150px;
+    box-shadow:chartreuse;
+}
+.inputs{
+    background-color:lightblue;
+    border: 10px solid blue;
+    border-radius:20px;
+
+}
+#allround{
+    
+    opacity: 0.999;
+    margin:100px 100px;
+    border: 50px groove cyan;
+    border-radius:100px;
+}
+#common{
+    box-shadow:blue;
+
+}
+button{
+    background-color: red;
+    opacity: 0.700;
+    cursor:pointer;
+    height:100px;
+    width: 500px;
+    border: 10px solid aqua;
+    border-radius: 5000px;
+}
+button:hover{
+    opacity:0.99;
+    background-color: blue;
+    color:indianred;
+    font-weight:100px;
+    font-size: large;
+
+}
+.labels{
+    color:hotpink;
+    font-size: 40;
+
+}
+#sechead{
+    color:orange;
+}
+
+.labels:hover{
+    color:white;
+    font-size: larger;
+}
+#firstborder{
+    width: 400px;
+    border:60px groove greenyellow;
+}

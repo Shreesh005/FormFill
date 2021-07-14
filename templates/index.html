@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="{{url_for('static', filename='CSS/style.css')}}" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+    <center>
+
+        <div id="firstborder">
+
+            <h1 id="quote">Excellence Since Years !</h1>
+            <h1 id="heading">XYZ Public School</h1>
+        </div>
+            <div id="allround">
+        
+            <h2 id="sechead">Registration form</h2>
+            <div id="form">
+                <form action="/save" method="POST">
+                    <div id="common">
+                        <label for="Name" class="labels">Name of the student: </label>
+                        <input type="text" name="Name" required="" class="inputs" placeholder="Name Here">
+                        <br>
+                        <br>
+                        <label for="fathername" class="labels">Father's Name: </label>
+                        <input type="text" name="fathername" required="" class="inputs"
+                            placeholder="Father's Name here">
+                        <br>
+                        <br>
+                        <label for="mothername" class="labels">Mother's Name: </label>
+                        <input type="text" name="mothername" required="" class="inputs" placeholder="Mother's Name ">
+                        <br>
+                        <br>
+                        <label for="email" class="labels">E-Mail: </label>
+                        <input type="email" name="email" required="" class="inputs" placeholder="E-mail here  ">
+                        <br>
+                        <br>
+                        <label for="mob" class="labels">Mobile Number: </label>
+                        <input type="text" name="mob" required="" class="inputs" placeholder="Mobile Number here ">
+                        <br>
+                        <br>
+                        <label for="prvSchool" class="labels">Name of the previous School :</label>
+                        <input type="text" name="prvSchool" required="" class="inputs"
+                            placeholder="Previous School here">
+                        <br>
+                        <br>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Submit</button>
+                </form>
+            </div>
+            <h3>{{message}}</h3>
+    </center>
+    </div>
+</body>
+
+</html>
