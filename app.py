@@ -34,4 +34,4 @@ def store():
         message = "You are registered Soon the dates for entrance test will be announced and you will recieve the same on your registered email"
         return render_template("index.html", message=message)
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(port='0.0.0.0')
